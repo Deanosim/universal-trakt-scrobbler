@@ -58,7 +58,7 @@ class _CrunchyrollBetaApi extends ServiceApi {
 	constructor() {
 		super(CrunchyrollBetaService.id);
 
-		this.HOST_URL = 'https://beta.crunchyroll.com';
+		this.HOST_URL = 'https://crunchyroll.com';
 		this.TOKEN_URL = `${this.HOST_URL}/auth/v1/token`;
 		this.PROFILE_URL = `${this.HOST_URL}/accounts/v1/me/profile`;
 		// The basic auth password for retrieving the token is always the same.
